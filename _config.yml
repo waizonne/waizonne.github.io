@@ -1,7 +1,7 @@
 name: @waizonne
 markdown: redcarpet
 pygments: true
-permalink: /:year/:month/:day/:title
+permalink: "/:year/:month/:day/:title"
 paginate: 7
 url: "http://waizonne.github.io"
 imageurl: "http://waizonne.github.io/img/"
