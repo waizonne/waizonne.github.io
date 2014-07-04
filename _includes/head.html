@@ -1,0 +1,45 @@
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="http://faviconist.com/icons/4b74539ba5239a84fd4b6aec29ae34af/favicon.ico" />
+    <meta name="description" content="My name is Chaiwut. I am a web designer and front-end developer, as well as a web developer too. I love coding HTML, JavaScript, CSS and PHP of course. I was born and live in Chiang Mai" />
+
+    <!-- open graph meta tags -->
+  {% if page.pagename == "home" %}
+    <meta property="og:title" content="@waizonne Blog is Story">
+    <meta property="og:description" content="Blogger หัวเกรียนท่านหนึ่ง">
+    <meta property="og:image" content="http://waizonne.github.io/img/avatar-me.jpg">
+  {% else %}
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ page.image }}">
+  {% endif %}
+    <!-- open graph meta tags -->
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="waizonne.github.io">
+    <meta property="fb:admins" content="100004258153898">
+    <meta property="og:type" content="website">
+
+    <!-- twitter card meta tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@waizonne">
+    <meta name="twitter:domain" content="http://waizonne.github.io">
+    <meta name="twitter:creator" content="@waizonne">
+    <meta name="twitter:url" content="http://waizonne.github.io/">
+    <meta name="twitter:title" content="Home">
+    <meta name="twitter:description" content="">
+
+    <!-- Authorship Information for Google -->
+    <link rel="author" href="https://plus.google.com/+AbhisitUkham">
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/foundation.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
