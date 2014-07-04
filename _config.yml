@@ -1,17 +1,18 @@
-name: iChaiwut.me
+# Site settings
+title: Ukham.com
+email: waizonne@gmail.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://ukham.com"
+
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:day/:title
 paginate: 7
-url: http://ichaiwut.me
-imageurl: http://ichaiwut.me/img/
+url: http://waizonne.github.io
+imageurl: http://waizonne.github.io/img/
 comments: true
 
-# Settings for analytics helper
-# Set 'provider' to the analytics provider you want to use.
-# Set 'provider' to false to turn analytics off globally.
-#
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-47772460-1'
+# Build settings
+#markdown: kramdown
+#permalink: pretty
